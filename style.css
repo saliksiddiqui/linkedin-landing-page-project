@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --artdeco-reset-typography-font-family-sans: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+}
+.navtop-left{
+    display: flex;
+    gap: 90px;
+}
+.navtop{
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.3px solid #e8e8e8;   
+    /* position: fixed; */
+
+
+}
+.navleft img{
+    border-radius: 4px;
+}
+.navleft input{
+    height: 35px;
+    width: 270px;
+    border: none;
+    background-color: #edf3f8;
+    border-radius: 4px;
+
+}
+
+input{
+    height: 30px;
+}
+
+.navleft{
+    
+display: flex;
+align-items: center;
+justify-content:center ;
+gap: 10px;
+
+
+
+}
+.navright{
+    height: 55px;
+     border-right: 1px solid #e8e8e8;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-right: 30px;
+  
+}
+
+.buttons{
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+   font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    gap: 30px;
+  
+}
+
+
+.button a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(102, 102, 102);
+    fill: currentColor;
+}
+.button a:hover{
+    color: black; 
+}
+
+.personalinfo{
+   
+   padding-left: 24px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.personalinfo a{
+    color: rgb(102, 102, 102);;
+    text-decoration: none;
+}
+.arrow{
+    display: flex;
+    gap: 1px;
+}
+.premium{
+  
+    height: 35;
+    width: 150px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+  color: black;
+}
+.prof img{
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid white;
+   
+
+}
+
+.sidebar-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-top{
+    border: 1px solid black;
+  
+   margin-top: 40px;
+   border-radius: 10px; 
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  gap: 15px;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+
+}
+.prof{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 100px;
+    width: 250px;
+  
+}
+.back{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.conections{
+ 
+    padding: 0px 10px;
+    width: 250px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.view{
+
+    padding: 0px 10px;
+    width: 250px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.myitems{
+
+    width: 250px;
+    display: flex;
+  align-items: center;
+  justify-content: left;
+
+}
+.sidebar-bottom{
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 10px; 
+    padding: 10px;
+    line-height: 30px
+}
+.back img{
+    height: 85px;
+    width: 250px;
+    border-radius: 10px ;
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-bottom a{ 
+    text-decoration: none;
+}
+.middle-panel img{
+    height: 50px;
+    width: 50px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+}
+.new-post input{
+    width: 500px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.new-post{
+    display: flex;
+ align-items: center;
+   justify-content: center;
+   gap: 10px;
+     /* border: 1px solid black;
+   border-radius: 10px;
+   padding: 20px;
+   margin-top: 40px; */
+}
+.middle-panel{
+    height: 140px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   gap: 20px;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 20px;
+   margin-top: 40px;
+
+}
+.middle-panel-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.new-post-text{
+    width: 500px;
+    display: flex;
+     justify-content:space-evenly ;
+}
+.myntralogo img{
+    height: 60px;
+
+}
+.myntralogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.post{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.add img{
+    height: 400px;
+    width: 660px;
+    
+}
+.myntralink{
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+}
+.videopost{
+    width: ;
+  border: 1px solid black;
+  width: 700px;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+.videopostlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.videopost{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.add1 img{
+    width: 660px;
+}
+.rightcontainer-all{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightcontainer{
+
+    /* box-sizing: content-box; */
+    margin-top: 40px ;
+    border-radius: 10px;
+     border: 1px solid black;
+     width: 280px;
+     height: 350px;
+     display: flex;
+     flex-direction: column;
+   /* justify-content: center; */
+   padding:20px 0px 0px 30px;
+
+   gap: 20px;
+}
+.rightcontainer a{
+    text-decoration: none;
+    color: black;
+}
+.rightcontainer ul{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightcontainer-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+border: 1px solid black;
+border-radius: 10px;
+padding:20px 10px 10px 30px;
+}
+.rightcontainer-middle a{
+    text-decoration: none;
+    color: black;
+}
+.rightcontainer-middle ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
